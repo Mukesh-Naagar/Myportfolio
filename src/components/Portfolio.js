@@ -1,4 +1,13 @@
 import React from 'react';
+import img1  from '../images/portfolio/portfolio-1.jpg';
+import img2  from '../images/portfolio/portfolio-2.jpg';
+import img3  from '../images/portfolio/portfolio-3.jpg';
+import img4  from '../images/portfolio/portfolio-4.jpg';
+import img5  from '../images/portfolio/portfolio-5.jpg';
+import img6  from '../images/portfolio/portfolio-6.jpg';
+import img7  from '../images/portfolio/portfolio-7.jpg';
+import img8  from '../images/portfolio/portfolio-8.jpg';
+import img9  from '../images/portfolio/portfolio-9.jpg';
 
 const Portfolio = () => {
 
@@ -33,12 +42,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
+              <img src= {img1} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" className="venobox" title="App 1"><i className="bx bx-plus"></i></a>
+                  <a href= {img1} data-gall="portfolioGallery" className="venobox" title="App 1"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -47,12 +56,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
+              <img src= {img2} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="bx bx-plus"></i></a>
+                  <a href= {img2} data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -61,12 +70,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
+              <img src= {img3} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" className="venobox" title="App 2"><i className="bx bx-plus"></i></a>
+                  <a href={img3} data-gall="portfolioGallery" className="venobox" title="App 2"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -75,12 +84,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
+              <img src= {img4} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" className="venobox" title="Card 2"><i className="bx bx-plus"></i></a>
+                  <a href= {img4} data-gall="portfolioGallery" className="venobox" title="Card 2"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -89,12 +98,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
+              <img src= {img5} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" className="venobox" title="Web 2"><i className="bx bx-plus"></i></a>
+                  <a href= {img5} data-gall="portfolioGallery" className="venobox" title="Web 2"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -103,12 +112,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
+              <img src= {img6} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" className="venobox" title="App 3"><i className="bx bx-plus"></i></a>
+                  <a href= {img6} data-gall="portfolioGallery" className="venobox" title="App 3"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -117,12 +126,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-7.jpg" className="img-fluid" alt="" />
+              <img src= {img7} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="bx bx-plus"></i></a>
+                  <a href= {img7} data-gall="portfolioGallery" className="venobox" title="Card 1"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -131,12 +140,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-8.jpg" className="img-fluid" alt="" />
+              <img src= {img8} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" className="venobox" title="Card 3"><i className="bx bx-plus"></i></a>
+                  <a href= {img8} data-gall="portfolioGallery" className="venobox" title="Card 3"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
@@ -145,12 +154,12 @@ const Portfolio = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap">
-              <img src="/images/portfolio/portfolio-9.jpg" className="img-fluid" alt="" />
+              <img src= {img9} className="img-fluid" alt="" />
               <div className="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div className="portfolio-links">
-                  <a href="/images/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="bx bx-plus"></i></a>
+                  <a href= {img9} data-gall="portfolioGallery" className="venobox" title="Web 3"><i className="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
                 </div>
               </div>
